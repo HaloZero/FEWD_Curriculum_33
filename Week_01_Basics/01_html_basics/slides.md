@@ -9,74 +9,64 @@
 
 ##Agenda
 
-*	Student Experience
-*	Intro To Web Development
+*	Introductions
+*  Housekeeping
+*	Expectations
 *	HTML Tags
 *	Lab Time
 
 ---
 
+## Introductions
 
-##Student Experience
+**Instructor**: Rohan Dhaimade
 
-*	Ask your producer and then decide how you would like to structure this lesson.
-
----
-
-
-
-##Intro To Web Development
-
+* Email: rohan.dhaimade@gmail.com
+* Twitter: @riderofrohan0
 
 ---
 
-##Front-End Web Development
+## Introductions
 
-Client-Side
+**TA**: Kristine Lai
 
-*	HTML
-*	CSS
-*	JavaScript
 
----
-
-##Back-End Web Development
-
-Server-Side
-
-*	Ruby
-*	PHP
-*	Python
-*	PERL
-*	C++
+**TA**: Allxie Clearly
 
 ---
 
+## Housekeeping ##
 
+You should have the following installed on your computer
 
-##HTML Tags
-
----
-
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-##General Assembly Press Release
+* Sublime Text (Version 2 or 3)
+* Google Chrome
+* A folder on your computer to place all your assignments. Keeping things organized makes everything so much easier.
 
 ---
 
-##HTML Basics
+## Schoology ##
+
+We'll be using Schoology to post Homework assignments and submitting them.
+I'll post lectures slides there as well and announcements.
 
 ---
 
+## What you will learn ##
 
-##HTML vs HTML5
+* Read HTML and CSS
+* Use Javascript & jQuery to create a complex UI interactions and manage complexity in your website.
+* Create a nice, multi-page website.
+* Know the basic workflow when someone says to you "Hey, can you build a website for me?"
 
-HTML5 is HTML with a few additions
-The Doctype tells you if the page is HTML5 ready.
+---
 
+## What you won't learn ##
 
-```<!DOCTYPE html>```
+* Backend web development or Node.js
+* Angular or other major javascript frameworks (but you should be able to read the javascript for it)
 
+---
 
 ##HTML HISTORY
 
@@ -87,10 +77,30 @@ image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timel
 
 ---
 
+##HTML vs HTML5
+
+HTML5 is HTML with a few additions
+The Doctype tells you if the page is HTML5 ready.
+
+
+```<!DOCTYPE html>```
+
+---
+
+### HTML ###
+
+HTML is a markup language. It wraps your content / text and displays it appropriately.
+
+---
 
 ##HTML Syntax
 
 ![HTML Syntax](../../img/unit_1/tags.png)
+
+Example:
+```
+<h1>This is a Header</h1>
+```
 
 ---
 
@@ -98,6 +108,10 @@ image retrieved from http://www.onbile.com/info/wp-content/uploads/2013/09/Timel
 
 ![HTML Syntax](../../img/unit_1/tags_attributes.png)
 
+Example:
+```
+<a href="http://www.google.com">This is a link</a>
+```
 ---
 
 ##Content Tags
@@ -153,6 +167,10 @@ links 
 
 --
 
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##Cookie Shop Advertisement
+
+--
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Cookie Recipe
@@ -161,7 +179,5 @@ links 
 
 ## Homework
 
-*	Create a resume website
-*	Watch a video about the Internet
-
----
+* Finish the Cookie Recipe Lab
+*
