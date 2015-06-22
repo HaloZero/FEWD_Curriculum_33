@@ -168,7 +168,7 @@ links 
 --
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Cookie Shop Advertisement
+## General Assembly Press Statement
 
 --
 
