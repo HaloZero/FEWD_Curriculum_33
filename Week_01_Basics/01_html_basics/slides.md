@@ -10,7 +10,7 @@
 ##Agenda
 
 *	Introductions
-*  Housekeeping
+* Housekeeping
 *	Expectations
 *	HTML Tags
 *	Lab Time
@@ -118,59 +118,82 @@ Example:
 
 Heading Elements
 
-```<h1>```Largest Heading```</h1>```
+```
+<h1>Largest Heading</h1>
+```
 
-```<h2>``` . . . ```</h2>```
+```
+<h2> . . . </h2>
+```
 
-```<h3>``` . . . ```</h3>```
+```
+<h3> . . . </h3>
+```
 
-```<h4>``` . . .```</h4>```
+```
+<h4> . . .</h4>
+```
 
-```<h5>``` . . . ```</h5>```
+```
+<h5> . . . </h5>
+```
 
-```<h6>```Smallest Heading```</h6>```
+```
+<h6>Smallest Heading</h6>
+```
 
---
+---
 
 ##Content Tags
 
 Text Elements
 
-```<p>```This is a paragraph```</p>```
+```
+<p>This is a paragraph</p>
+```
 
-```<code>```This is some computer code```</code>```
+```
+<code>This is some computer code</code>
+```
 
---
-
-##Content Tags
-
-Unordered list 
-```<ul>``` ```</ul>```
-
---
+---
 
 ##Content Tags
 
-Unordered list item 
-`
-	```<li>```First item```</li>```
-    ```<li>```Next item```</li>```
+Unordered list
 
+```
+<ul></ul>
+```
 
---
+---
 
 ##Content Tags
 
-links 
- ```<a href="Link">```First item```</a>```
+Unordered list item
+
+```
+<li>First item</li>
+<li>Next item</li>
+```
 
 
---
+---
+
+##Content Tags
+
+Links
+```
+<a href="Link">First item</a>
+```
+
+
+---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ## General Assembly Press Statement
 
---
+---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Cookie Recipe
