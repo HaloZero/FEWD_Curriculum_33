@@ -1,0 +1,5 @@
+1) Cover the background-color
+2) Cover the font changes
+3) Nav Link Colors
+4) H1 / H2 Colors
+5) Margin, padding, and borders
