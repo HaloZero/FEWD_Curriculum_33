@@ -1,0 +1,36 @@
+body {
+  background: #FF7599;
+  background-image: url(../images/carly-background.jpeg);
+  background-repeat: repeat;
+  background-size: 250px 250px;
+}
+
+h1 {
+  font-size: 5em;
+  color: white;
+}
+
+table {
+  background: #2E9CC6;
+  color: white;
+  padding: 30px;
+  margin: 50px auto;
+}
+
+header {
+  text-align: center;
+}
+
+a {
+  color: black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+table img {
+  width: 150px;
+  heigth: 150px;
+}
