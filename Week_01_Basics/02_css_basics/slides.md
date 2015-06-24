@@ -460,3 +460,7 @@ http://google.com/fonts
 *	Wendy G. Bites - Resume.
 
 ---
+
+## Homework
+
+### Create your own about page and resume!
