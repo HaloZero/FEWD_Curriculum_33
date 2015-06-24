@@ -18,12 +18,24 @@ Let's make it beautiful
 
 ---
 
-![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
-##About page
+##HTML Syntax
+
+![HTML Syntax](../../img/unit_1/tags.png)
+
+Example:
+```
+<h1>This is a Header</h1>
+```
 
 ---
 
-##Building Websites
+## HTML Content Tags
+
+* h1 / h2 / h3 / h4
+* ul
+* li
+* a
+* p
 
 ---
 
@@ -89,7 +101,6 @@ The downside is that the path only works if the project is stored to a proper lo
 
 ---
 
-
 ##HTML Basics - Images
 Full URL
 
@@ -135,8 +146,11 @@ There are three main image file formats:
 
 ####.png
 
+* Supports transparency and semi-transparency
+* Great for logos, icons, and repeating background tiles.
+
 Note:
-Supports transparency and semi-transparency, great for logos, icons, and repeating background tiles. Almost always preferable to a `gif`, unless semi-transparency is not needed, and the `gif` format is significantly smaller.
+  Almost always preferable to a `gif`, unless semi-transparency is not needed, and the `gif` format is significantly smaller.
 
 ---
 
@@ -146,6 +160,7 @@ Supports transparency and semi-transparency, great for logos, icons, and repeati
 ####.gif
 
 *	Can have basic transparency, typically a `png` is used instead.
+* Can be animated, there are now animated pngs (but nobody uses them)
 
 ---
 
@@ -153,23 +168,23 @@ Supports transparency and semi-transparency, great for logos, icons, and repeati
 
 ####.jpeg
 
-Note:
-No transparency, can be stored at different compression levels with varying amounts of "lossy-ness", typically the best format for photos. (Try to balance between photo quality and file size.)
+* No transparency
+* Can be stored at different compression levels with varying amounts of "lossy-ness"
+* Typically the best format for photos. (Try to balance between photo quality and file size.)
 
 
 ---
 
-
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##About Me
+
+Let's build our page!
 
 ---
 
 ##CSS
 
-If HTML is the house, the css is the decorations and styling. The paint
-
-
+If HTML is the house, the css is the decorations and styling.
 
 ---
 
