@@ -172,13 +172,21 @@ Note:
 * Can be stored at different compression levels with varying amounts of "lossy-ness"
 * Typically the best format for photos. (Try to balance between photo quality and file size.)
 
+---
+
+![GeneralAssemb.ly](../../img/icons/Exercise_icon_md.png)
+##Path Me Maybe
+
+* Learn about relative paths
+* Learn to fix issues with misplaced files
+
 
 ---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##About Me
 
-Let's build our page!
+* Let's practice knowing which tags to use
 
 ---
 
