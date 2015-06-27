@@ -15,9 +15,7 @@ Ooh fancy boxes.
 *	Box Model
 *	Nested Selectors
 * Block vs Inline Elements
-*	HTML Template
 *	Lab Time
-	*	How To Start
 
 ---
 
@@ -26,7 +24,6 @@ Ooh fancy boxes.
 - Explain the box model and how it affects styling
 - Utilize nested selectors for advanced styling
 - Differentiate between block and inline elements
-- Learn new strategies for starting a project
 
 ---
 
@@ -194,7 +191,7 @@ The ```<em>``` tags inside the paragraph are inline elements.
 
 ---
 
-##Classes and Ids
+<!-- ##Classes and Ids
 
 With classes and ids, we can organize how we manipulate elements on a page.
 
@@ -243,7 +240,7 @@ This will make any element with the class 'slanted-paragraph' have italics font.
 
 How do you get started?
 
----
+--- -->
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Fashion Blog
