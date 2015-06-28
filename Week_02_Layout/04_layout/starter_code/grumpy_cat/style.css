@@ -1,6 +1,7 @@
 img {
   width: 200px;
   height: 300px;
+  margin-right: 10px;
 }
 
 .left {
@@ -13,7 +14,7 @@ img {
   border: 10px solid black;
   border-radius: 5px;
   margin: 0;
-  padding: 0;
+  padding: 40px;
   clear: both;
 }
 
