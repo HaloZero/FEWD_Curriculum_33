@@ -6,16 +6,6 @@
 
 ---
 
-
-##Agenda
-
-*	Review
-*	HTML5 Structural Elements
-*	Floats
-*	Lab Time
-
----
-
 ## Objectives ##
 
 - Predict css styling that rely on inheritance
@@ -147,6 +137,12 @@ clearfix is a bit of misnomer. What it does it tells a container element to acco
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##Floating Sections
+
+
+---
+
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##Grumpy Cat
 
 ---
 
