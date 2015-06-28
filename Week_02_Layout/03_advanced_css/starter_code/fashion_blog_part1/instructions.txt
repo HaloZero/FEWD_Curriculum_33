@@ -1,0 +1,40 @@
+Your goal is to get the HTML you have been provided to look like the image also provided using only css modifications!
+
+1) You do not need to modify the HTML inside the <body> tag for this assignment, you should be able to do everything by modifying the css.
+
+You can add <link> and other tags to your HTML. You should be able to replicate the image using css only.
+
+2) It's not visible in the image but the colors of nav links change to black when you hover over them.
+
+  Color List:
+  Header Color is #D00;
+  Date header colors are #CCC;
+
+  Header Nav link color is #DDD;
+  When you hover over any header navigation link the color should turn to #000;
+
+  Title of an article is #000;
+  When you hover the title of the article, it should turn to #D00;
+
+  Paragraph text color is #444;
+
+  Continues should be color #D00;
+  When you hover over continues it should turn to #A00;
+
+  Special Notes:
+    You'll want to look into the psuedo-selector
+    "::first-letter" for modifying the first letter of each paragraph in the article.
+    You'll need to also apply the rule 'float: left' to make it float. We will cover this more in the next class.
+
+Bonus Assignment:
+  Create the footer HTML and style it appropriately using the <footer> tag.
+
+Bonus Assignment 2:
+  The nav links in the header, the underline also changes to black (depending on your implementation). Figure out a way to change the text-color to black, but the underline to #BBB; Hint: You might have to modify how you did the underline in css.
+
+  Again! You shouldn't need to modify the HTML!
+
+Super Bonus Assignment:
+  You can change how the color change from gray to black for the links works! There is some css you can add that allows you to control this. You will need to google it.
+
+  Again! You shouldn't need to modify the HTML!
