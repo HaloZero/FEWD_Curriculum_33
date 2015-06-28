@@ -147,4 +147,5 @@ clearfix is a bit of misnomer. What it does it tells a container element to acco
 ---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Layout Challenge
+
+##Fashion Blog Part 2
