@@ -27,9 +27,9 @@ Ooh fancy boxes.
 
 ---
 
-##Review
+##CSS Format
 
-What do students need help with?
+![](../../img/unit_1/css_syntax.png)
 
 ---
 
