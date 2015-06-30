@@ -26,6 +26,9 @@ You can add <link> and other tags to your HTML. You should be able to replicate 
     "::first-letter" for modifying the first letter of each paragraph in the article.
     You'll need to also apply the rule 'float: left' to make it float. We will cover this more in the next class.
 
+3) You only need to make it look right when the browser is at most 800px wide.
+
+
 Bonus Assignment:
   Create the footer HTML and style it appropriately using the <footer> tag.
 
