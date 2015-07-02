@@ -116,9 +116,27 @@ This will make any element with the class 'slanted-paragraph' have italics font.
 
 ---
 
+### CSS Specificity
+
+Why does my css not apply?
+
+CSS selectors are not equal, depending on the ones you use they have more precedence.
+
+In order of importance:
+
+1. Inline style tags
+2. Id tags
+3. Classes
+4. Tag selectors/Psuedo-Class
+5. If two selectors have the same specificity, the later one takes over.
+
+---
 ### Useful knowledge of selectors ###
 
 https://css-tricks.com/little-css-stuff-newcomers-get-confused-about/
+
+More about Speficity:
+http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/
 
 ---
 
