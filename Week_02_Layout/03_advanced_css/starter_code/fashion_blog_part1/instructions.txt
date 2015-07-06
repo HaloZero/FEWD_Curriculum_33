@@ -38,6 +38,6 @@ Bonus Assignment 2:
   Again! You shouldn't need to modify the HTML!
 
 Super Bonus Assignment:
-  You can change how the color change from gray to black for the links works! There is some css you can add that allows you to control this. You will need to google it.
+  You can change how long it takes for the color to change from gray to black! There is some css you can add that allows you to control this. You will need to google it. It should take 300ms!
 
   Again! You shouldn't need to modify the HTML!
