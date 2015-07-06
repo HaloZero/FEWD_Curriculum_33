@@ -1,0 +1,30 @@
+header div {
+  height: 100px;
+
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.title {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 70%;
+}
+
+nav a {
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid black;
+  float: left;
+}
+
+.marketing-main {
+
+}

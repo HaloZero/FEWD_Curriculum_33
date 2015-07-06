@@ -1,0 +1,35 @@
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.container {
+  margin: 10px 0;
+}
+
+div {
+  height: 100px;
+  background-color: green;
+}
+
+.left {
+  float: left;
+  border-right: 5px solid black;
+}
+
+.right {
+  float: right;
+}
+
+header, footer {
+  height: 100px;
+  background-color: blue;
+}
+
+.two-column .left {
+  width: 65%;
+}
+
+.two-column .right {
+  width: 25%;
+}
