@@ -6,7 +6,13 @@ You will need to Google:
 * ```<del>``` ```<ins>```
 * overflow
 
-Fonts Used: 
+Fonts Used:
 * Source Sans Pro
 * Merriweather
 * Oswald
+
+Tips and Tricks:
+1) You don't want to use an img tag for the large image, use a background-image property on a div.
+2) The header text should float left, the navigation should float right
+3) You might find something about text-decoration color as a css property that doesn't work, it only works on Firefox. Don't use it.
+
