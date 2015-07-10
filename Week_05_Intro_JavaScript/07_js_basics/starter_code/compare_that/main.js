@@ -21,6 +21,4 @@ function compare() {
   document.getElementById('comparison').innerHTML = '?';
 }
 
-document.addEventListener("DOMContentLoaded", function(event) {
-  document.getElementById('submit').onclick = compare;
-});
+document.getElementById('submit').onclick = compare;

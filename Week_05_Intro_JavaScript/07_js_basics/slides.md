@@ -11,7 +11,7 @@ It's time for the fun part.
 ##Agenda
 
 *	What does JS do?
-* JS Syntax
+* 	JS Syntax
 *	Variables
 *	Arithmetic
 *	Conditionals
