@@ -1,0 +1,93 @@
+body {
+  font-size: 3em;
+}
+
+header {
+  height: 150px;
+}
+
+header .logo {
+  float: left;
+  background-color: purple;
+  width: 20%;
+}
+
+header nav {
+  float: right;
+  margin-top: 35px;
+}
+
+header nav a {
+  margin-right: 5px;
+  background-color: green;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+footer {
+  height: 150px;
+  background-color: orange;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.container .side-content {
+  float: left;
+  width: 19%;
+  margin-right: 1%;
+  background-color: blue;
+}
+
+.container .side-content .inner-container {
+  height: 450px;
+}
+
+.container .main-content {
+  float: left;
+  width: 80%;
+}
+
+.container .top-content {
+  background-color: beige;
+}
+.container .secondary-content .left {
+  float: left;
+  width: 65.6%;
+  margin-right: 1%;
+  background-color: brown;
+}
+
+.container .secondary-content .right {
+  float: right;
+  width: 33.3%;
+  background-color: cyan;
+}
+
+.container .teritary-content .left {
+  float: left;
+  width: 24.25%;
+  margin-right: 1%;
+  background-color: fuchsia;
+}
+
+.container .teritary-content .left:last-child {
+  margin-right: 0;
+}
+
+
+header, .container, .main-content, .secondary-content {
+  margin-bottom: 10px;
+}
+
+.main-content .top-content, .main-content .secondary-content {
+  margin-bottom: 10px;
+}
+
+.inner-container {
+  padding: 10px;
+  border: 1px solid black;
+  height: 128px;
+}
