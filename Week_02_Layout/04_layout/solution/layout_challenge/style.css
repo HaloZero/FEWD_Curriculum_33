@@ -20,21 +20,27 @@ footer {
 .main-content .left {
   float: left;
   background-color: green;
-  width: 50%;
+  width: 49.5%;
   height: 150px;
+  margin-right: 1%;
 }
 
 .main-content .right {
   float: right;
   background-color: yellow;
-  width: 50%;
+  width: 49.5%;
   height: 150px;
 }
 
-.secondary-content div {
+.secondary-content > div {
   float: left;
-  width: 33.33%;
+  width: 32.66%;
   height: 150px;
+  margin-right: 1%;
+}
+
+.secondary-content > div:last-child {
+  margin-right: 0;
 }
 
 .secondary-content .left {
@@ -51,4 +57,14 @@ footer {
 
 .secondary-content .right {
   background-color: #f1c40f;
+}
+
+header, .main-content, .secondary-content {
+  margin-bottom: 10px;
+}
+
+.inner-container {
+  padding: 10px;
+  border: 1px solid black;
+  height: 128px;
 }
