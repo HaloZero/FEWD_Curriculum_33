@@ -1,0 +1,43 @@
+body {
+  font-size: 3em;
+}
+
+header {
+  height: 150px;
+  background-color: purple;
+}
+
+footer {
+  height: 150px;
+  background-color: orange;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.main-content .left {
+  float: left;
+  background-color: green;
+  width: 59%;
+  height: 150px;
+  margin-right: 1%;
+}
+
+.main-content .right {
+  float: right;
+  background-color: yellow;
+  width: 40%;
+  height: 150px;
+}
+
+header, .main-content, .secondary-content {
+  margin-bottom: 10px;
+}
+
+.inner-container {
+  padding: 10px;
+  border: 1px solid black;
+  height: 128px;
+}
