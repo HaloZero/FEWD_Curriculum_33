@@ -1,8 +1,3 @@
-document.getElementById('grayButton').onclick = switchGray;
-document.getElementById('whiteButton').onclick = switchWhite;
-document.getElementById('blueButton').onclick = switchBlue;
-document.getElementById('yellowButton').onclick = switchYellow;
-
 // this is a comment, nothing in this line is evaluated by javascript
 // use it explain what's going on
 function switchGray() {
@@ -23,3 +18,9 @@ function switchBlue() {
 function switchYellow() {
   document.getElementsByTagName('body')[0].className = 'yellow-background';
 }
+
+document.getElementById('grayButton').onclick = switchGray;
+document.getElementById('whiteButton').onclick = switchWhite;
+document.getElementById('blueButton').onclick = switchBlue;
+document.getElementById('yellowButton').onclick = switchYellow;
+

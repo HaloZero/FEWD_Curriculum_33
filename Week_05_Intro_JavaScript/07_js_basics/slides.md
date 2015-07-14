@@ -290,9 +290,9 @@ if(condition is true) {
 
 ```
 	var topic = "JS";
-	if (topic == "JS") {
+	if (topic === "JS") {
 		console.log("You're learning JavaScript");
-	} else if(topic == "JavaScript") {
+	} else if(topic === "JavaScript") {
 		console.log("You're still learning JavaScript");
 	} else {
 		console.log("You're learning something else");
@@ -304,7 +304,7 @@ if(condition is true) {
 ##Multiple Conditions
 
 ```
-if (name == "GA"  && password == "YellowPencil"){
+if (name === "GA"  && password === "YellowPencil"){
 	//Allow access to internet
 }
 ```
@@ -315,7 +315,7 @@ if (name == "GA"  && password == "YellowPencil"){
 ##The Truth Table
 
 ```
-if (name == "GA"  && password == "YellowPencil"){
+if (name === "GA"  && password === "YellowPencil"){
 	//Allow access to internet
 }
 ```
@@ -331,7 +331,7 @@ if (name == "GA"  && password == "YellowPencil"){
 ##The Truth Table
 
 ```
-if (day == "Tuesday"  || day == "Thursday"){
+if (day === "Tuesday"  || day === "Thursday"){
 	//We have class today
 }
 ```
