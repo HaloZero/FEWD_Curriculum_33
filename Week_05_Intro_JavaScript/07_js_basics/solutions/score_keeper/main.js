@@ -10,7 +10,7 @@ function addFive() {
 }
 
 function addTen() {
-  score = score + 5;
+  score = score + 10;
   document.getElementById('result').innerHTML = score;
 }
 
