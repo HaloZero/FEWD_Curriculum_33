@@ -1,23 +1,22 @@
-
-var total = 0;
+var score = 0;
 
 function zero() {
-  total = 0;
-  document.getElementById('result').innerHTML = total;
+  score = 0;
+  document.getElementById('result').innerHTML = score;
 }
 function addFive() {
-  total += 5;
-  document.getElementById('result').innerHTML = total;
+  score = score + 5;
+  document.getElementById('result').innerHTML = score;
 }
 
 function addTen() {
-  total += 5;
-  document.getElementById('result').innerHTML = total;
+  score = score + 5;
+  document.getElementById('result').innerHTML = score;
 }
 
 function minusOne() {
-  total -= 1;
-  document.getElementById('result').innerHTML = total;
+  score = score - 1;
+  document.getElementById('result').innerHTML = score;
 }
 
 document.getElementById('zero').onclick = zero;
