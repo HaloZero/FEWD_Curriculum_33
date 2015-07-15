@@ -5,6 +5,7 @@
 
 Conjunction junction, what's your function?
 
+
 ---
 
 ##Variables
@@ -17,6 +18,17 @@ What are variables?
 ![GeneralAssemb.ly](../img/var-syntax.png)
 
 ---
+
+##Associations
+
+When using Javascript you can associate certain key words and characters with certain concepts.
+
+* ""
+* 13
+* document
+* var
+
+--- 
 
 ##DOM
 
@@ -31,6 +43,7 @@ You can access the HTML in JS by using:
 ##Functions!
 
 Functions are the worker bees of the programming world. They are a nice object that you can put commands in, and you can fire these functions by calling them in a script.
+
 
 ---
 
@@ -51,6 +64,13 @@ function nameOfFunction(){
 }
 ```
 
+Consists of major parts:
+
+* function keyword 
+* name of the function (nameOfFunction in this case)
+* () for arguments (we'll learn this later)
+* {} anything inside the {} gets executed when you call the function
+
 ---
 
 ##Calling a Function
@@ -61,7 +81,7 @@ You fire off a function with a listener:
 document.getElementById('listener').click = myFunction;
 
 function myFunction() {
-  alert("You fired my function!");
+  console.log("You fired my function!");
 }
 ```
 
@@ -70,7 +90,7 @@ function myFunction() {
 
 ##Calling a Function
 
-When you call a function, it  executes the commands that are inside the function. Sometimes you have one function (say, a function that resets all your fields) that you want to recycle over and over again. You can call that function within another function.
+When you call a function, it executes the commands that are inside the function. Sometimes you have one function (say, a function that resets all your fields) that you want to recycle over and over again. You can call that function within another function.
 
 ```
 function changeSomething() {
@@ -100,7 +120,7 @@ You've noticed that function names are followed by arguments:
 
 These parentheses are where you can pass parameters:
 
-```function myFunction(a,b)```
+```function myFunction(a, b)```
 
 This now means that myFunction can work with some data that has been put in the a and b containers.
 
@@ -113,8 +133,8 @@ Remember, a function is just a fancy container. It doesn't have to always print 
 To hold a value, you use the *return* command:
 
 ```
-function doMath(a, b) {
-  c = a + b;
+function addNumber(a, b) {
+  var c = a + b;
   return c;
 }
 ```
@@ -128,7 +148,11 @@ In the previous example, the line   ```return c;``` simply holds the value of ``
 ---
 
 ![GeneralAssemb.ly](../img/icons/code_along.png)
-##Review: Make a Better Theme Switcher
+##Review: Make a Better Score Keeper
+
+Objectives:
+* Let's restrict what the score can be: must be greater than 0 and less than 25
+* How can we utilize our knowledge of functions to accomplish this?
 
 ---
 
