@@ -28,7 +28,7 @@ When using Javascript you can associate certain key words and characters with ce
 * document
 * var
 
---- 
+---
 
 ##DOM
 
@@ -66,7 +66,7 @@ function nameOfFunction(){
 
 Consists of major parts:
 
-* function keyword 
+* function keyword
 * name of the function (nameOfFunction in this case)
 * () for arguments (we'll learn this later)
 * {} anything inside the {} gets executed when you call the function
@@ -151,6 +151,7 @@ In the previous example, the line   ```return c;``` simply holds the value of ``
 ##Review: Make a Better Score Keeper
 
 Objectives:
+
 * Let's restrict what the score can be: must be greater than 0 and less than 25
 * How can we utilize our knowledge of functions to accomplish this?
 
@@ -194,19 +195,19 @@ Callbacks are functions that are called once a series of actions are done. ex. w
 ##Anonymous Functions Syntax
 
 ```
-document.addEventListener("DOMContentLoaded", function(event) {
-  // let's do some stuff!
+document.getElementById("box").onclick = function(event) {
+  console.log("Wheee");
 }
 ```
 
 This is equivalent to saying
 
 ```
-var doStuffWhenEverythingIsReady = function(event) {
-  // let's do some stuff!
+var doStuff = function(event) {
+  console.log("Wheee");
 }
 
-document.addEventListener("DOMContentLoaded", doStuffWhenEverythingIsReady);
+document.getElementById("box").onclick = doStuff;
 ```
 
 ---
