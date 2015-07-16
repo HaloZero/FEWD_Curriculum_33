@@ -7,8 +7,8 @@ function exercise1() {
 
 function exercise2() {
   var a = sub(10, 2);
-  var b = add(25, 5);
-  var c = add(b,a);
+  var b = sub(25, 5);
+  var c = sub(b,a);
   checkValue(12, c, "exercise-2");
 }
 
