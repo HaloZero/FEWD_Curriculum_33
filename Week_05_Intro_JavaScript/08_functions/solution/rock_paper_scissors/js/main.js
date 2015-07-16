@@ -52,7 +52,7 @@ function botWon(humanChoice, botChoice) {
 }
 
 function tieGame(humanChoice, botChoice) {
-  var statusText = baseStatusText(humanChoice, botChoice) + " You lost!";
+  var statusText = baseStatusText(humanChoice, botChoice) + " You tied!";
   document.getElementById('status').innerHTML = statusText;
 }
 
