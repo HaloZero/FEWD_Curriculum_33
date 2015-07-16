@@ -1,0 +1,36 @@
+body {
+  margin: 3em;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+button {
+  background: #FFE;
+  padding: 15px;
+  border: 2px solid #CCB;
+  font-size: 1.2em;
+}
+
+button:focus {
+  outline: none;
+}
+
+.error {
+  background: #FEE;
+  border-color: #C66;
+}
+
+.success {
+  background: #2ecc71;
+  border-color: #27ae60;
+}
+
+.row {
+  margin-bottom: 25px;
+}
+
+.row button {
+  margin-right: 10px;
+}
