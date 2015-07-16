@@ -78,31 +78,28 @@ Consists of major parts:
 You fire off a function with a listener:
 
 ```
-document.getElementById('listener').click = myFunction;
-
 function myFunction() {
   console.log("You fired my function!");
 }
+
+document.getElementById('listener').onclick = myFunction;
 ```
 
 ---
 
+## Calling a Function
 
-##Calling a Function
-
-When you call a function, it executes the commands that are inside the function. Sometimes you have one function (say, a function that resets all your fields) that you want to recycle over and over again. You can call that function within another function.
+You can call a function by using it's name and adding () 
+This calls the function with no arguments
 
 ```
-function changeSomething() {
-  reset();
-  document.getElementById('box') = 'something';
+function myFunction() {
+  console.log("You called my function!");
 }
 
-function reset() {
-  document.getElementById('box').value = '';
-  document.getElementById('box2').value = '';
-}
+myFunction(); 
 ```
+
 
 ---
 
@@ -122,7 +119,20 @@ These parentheses are where you can pass parameters:
 
 ```function myFunction(a, b)```
 
+--- 
+
+##Passing Arguments
+
 This now means that myFunction can work with some data that has been put in the a and b containers.
+
+```
+  function myFunction(a, b) {
+    console.log(a);
+    console.log(b);
+  }
+
+  myFunction(1, 2);
+```
 
 ---
 
@@ -133,17 +143,29 @@ Remember, a function is just a fancy container. It doesn't have to always print 
 To hold a value, you use the *return* command:
 
 ```
-function addNumber(a, b) {
+function addNumbers(a, b) {
   var c = a + b;
   return c;
 }
+
 ```
 
 ---
 
 ##Return in JS
 
-In the previous example, the line   ```return c;``` simply holds the value of ```doMath```. It doesn't automatically print it out. This is useful because I could use that value in a different function if I wanted to.
+In the previous example, the line   ```return c;``` simply holds the value of ```addNumber```. It doesn't automatically print it out. This is useful because I could use that value in a different function if I wanted to.
+
+``` 
+function addNumbers(a, b) {
+  var c = a + b;
+  return c;
+}
+
+var sum = addNumbers(1, 6);
+console.log(sum); // prints 7
+```
+
 
 ---
 
