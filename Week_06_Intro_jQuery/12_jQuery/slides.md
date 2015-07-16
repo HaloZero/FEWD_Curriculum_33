@@ -79,26 +79,6 @@ $('tag').show();
 
 ---
 
-##jQuery
-
-When you use jQuery on a page, you usually don't want the script to trigger until the DOM is ready. You'll often see a script wrapped in this function:
-
-```
-$(document).ready(function() {
-  // put some Javascript here
-});
-```
-
-This is equivalent to what we've been doing:
-
-```
-document.addEventListener("DOMContentLoaded", function() {
-  // put some javascript here
-});
-```
-
----
-
 ##jQuery More
 
 No more innerHTML!
