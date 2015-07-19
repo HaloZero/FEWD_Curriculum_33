@@ -69,7 +69,7 @@ The Dollar Sign
 
 ##jQuery
 
-When you want to select an element with jQuery to manipulate it, you use the same conventions as you would for CSS.
+When you want to select an element with jQuery to manipulate it, you use the same *selector* as you would for CSS.
 
 ```
 $(".class").click();
@@ -99,6 +99,7 @@ $("#mainText").text('Yeah you know me');
 
 ##jQuery Values
 
+Remember how we modified input tags?
 
 ```
 var value = document.getElementById("mainInput");
@@ -114,6 +115,18 @@ $("#mainInput").val(5);
 
 ---
 
+##jQuery onClick
+
+```
+function clickHeader() {
+
+}
+$("header").click(clickHeader);
+
+```
+
+---
+
 ##jQuery
 
 Everything you need to know is here:
@@ -123,7 +136,18 @@ Everything you need to know is here:
 ---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
-##Theme Switcher
+## Score Keeper
+
+
+--- 
+
+![GeneralAssemb.ly](../../img/icons/instr_lab.png)
+## Rock Paper Scissors
+
+Convert your Rock Paper Scissors solution to jQuery!
+
+Remember to add jQuery script to your page. 
+
 
 ---
 
@@ -135,11 +159,42 @@ Use 2.x when you don't have to support legacy browser, it will be faster, smalle
 
 ---
 
+##Common Methods
+
+```
+$("section").hide();
+$("section").show();
+```
+
+Show and hide allow you to make elements visible or hide them!
+
+---
+
+##Common Patterns 
+
+You'll see some common patterns involving DOM manipulation.
+
+Adding/Removing classes is pretty common
+
+```
+
+$("a").addClass("active");
+$("a").removeClass("active");
+
+```
+
+---
+
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+## Theme Switcher
+
+---
+
 ##Debugging
 
 There's one major caveat to using jQuery.
 
-This will throw an error, no wacky button this page.
+This will throw an error if there no element with id "wackyButton" this page.
 
 ```
 document.getElementById("wackyButton").onclick = function() {
@@ -147,7 +202,7 @@ document.getElementById("wackyButton").onclick = function() {
 }
 ```
 
-jQuery will fail silently. This still does nothing, but it won't throw an error anymore.
+jQuery will fail silently. This still does nothing, but it won't throw an error anymore. If jQuery can't find any elements, it wont't tell you.
 
 ```
 $("#wackyButton").click(function() {
