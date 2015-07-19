@@ -186,7 +186,7 @@ $("a").removeClass("active");
 ---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
-## Theme Switcher
+## Black Out!
 
 ---
 
@@ -225,19 +225,5 @@ Why can you do this? Because just like $("p") returns back the DOM element, .rem
 ---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Divided Times
+##CitiPix
 
-Hints!
-You'll need to know about:
-```
-
-.toggleClass()
-.hasClass()
-.hide()
-.show()
-.slideUp()
-.siblings()
-.removeClass()
-.addClass()
-
-```
