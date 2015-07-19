@@ -1,42 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    html, body { margin: 0; padding: 0; font-family: verdana, sans-serif; color: #212121; }
-    h1 { margin: 0 0 50px 0; }
-    nav { overflow: auto; border-bottom: 1px solid #424242;}
-    nav a { display: block; float: left; width: 33.33%; line-height: 100px; font-size: 20px; text-align: center; background-color: #FFF; color: #424242; text-decoration: none; }
-    nav a:hover { color: #212121;  text-decoration: underline; }
-    nav a.active { background-color: #212121;  color: #EEEEEE; }
-    section { padding: 50px; }
-    #travel-content p { text-align: center }
-    #about-content p { overflow: auto; }
-    #about-content img {float:left; margin-right: 10px;}
-    #contact-content p strong { display: inline-block; width: 100px; text-align: right; }
-  </style>
-
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
-  <script src="main.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
   <nav>
-    <a href="#" id="travel">travel</a>
+    <a href="#" class="active" id="travel">travel</a>
     <a href="#" id="about">about</a>
-    <a href="#" id="contact">contact</a>
-    <a href="#" id="contact">contact</a>
-    <a href="#" id="contact">contact</a>
-    <a href="#" id="contact">contact</a>
-    <a href="#" id="contact">contact</a>
-    <a href="#" id="contact">contact</a>
-    <a href="#" id="contact">contact</a>
-    <a href="#" id="contact">contact</a>
     <a href="#" id="contact">contact</a>
 
   </nav>
 
   <div id="container">
-
     <section id="travel-content">
       <h1>Travel</h1>
       <p>
@@ -81,5 +57,8 @@
     </section>
 
   </div>
+
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+  <script src="main.js"></script>
 </body>
 </html>
