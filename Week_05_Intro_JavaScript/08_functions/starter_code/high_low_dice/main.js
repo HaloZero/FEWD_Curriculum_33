@@ -3,6 +3,9 @@
 // Function 1 available to you:
 // rollADice, which returns a number from 1 to 6 randomly
 
+// PROTIP: You can't start a function or variable name with a number.
+// So don't name your function 7.
+
 // Step 1: Setup on our on click events
 // Step 2: Test them, make sure your onclick events work
 // Step 3: Pick a function to implement
