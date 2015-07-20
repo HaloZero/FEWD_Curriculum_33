@@ -72,9 +72,11 @@
 	background: #666;
 	color: white;
 	border-bottom: 1px solid black;
+	height: 228px;
 }
 .drop {
 	padding: 20px;
+	display: none;
 }
 
 /* Main */

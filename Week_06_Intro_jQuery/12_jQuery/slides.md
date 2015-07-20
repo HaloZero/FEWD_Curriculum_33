@@ -9,9 +9,11 @@ jQuery, let's rock this.
 ---
 
 
-##Agenda
+##Objectives
 
-*	jQuery
+*	Translate our current use of HTML interation with jQuery
+*  Utilize jQuery to make our code simpler
+*  Use jQuery selectors 
 
 ---
 
@@ -27,7 +29,7 @@ jQuery __is__ JavaScript
 
 jQuery is a cross-browser JavaScript library designed to simplify the client-side scripting of HTML.
 
-In other words, jQuery combines a lot of things in the background to make writing functions and doing commands a lot easier.
+In other words, jQuery provides a way of writing DOM manipulation functions a lot easier. 
 
 
 ---
@@ -46,7 +48,6 @@ In other words, jQuery combines a lot of things in the background to make writin
 	*	and more!
 
 ---
-
 
 ##jQuery
 
@@ -74,7 +75,13 @@ When you want to select an element with jQuery to manipulate it, you use the sam
 ```
 $(".class").click();
 $("#id").toggle();
-$('tag').show();
+$("tag").show();
+```
+
+This works with nested selectors as well! 
+
+```
+$("nav .active").show();
 ```
 
 ---
@@ -91,7 +98,7 @@ document.getElementById("mainText").innerHTML = 'Yeah you know me'
 This is equivalent to what we've been doing:
 
 ```
-var text = $("mainText").text();
+var text = $("#mainText").text();
 $("#mainText").text('Yeah you know me');
 ```
 
@@ -109,7 +116,7 @@ document.getElementById('mainInput').value = 5;
 This is equivalent to what we've been doing:
 
 ```
-var value = $("input").val();
+var value = $("#mainInput").val();
 $("#mainInput").val(5);
 ```
 
@@ -119,8 +126,9 @@ $("#mainInput").val(5);
 
 ```
 function clickHeader() {
-
+	console.log("You've clicked on my header");
 }
+
 $("header").click(clickHeader);
 
 ```
@@ -138,16 +146,19 @@ Everything you need to know is here:
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ## Score Keeper
 
+Objectives
+
+* Translate our DOM interaction with jQuery!
 
 --- 
 
 ![GeneralAssemb.ly](../../img/icons/instr_lab.png)
 ## Rock Paper Scissors
 
-Convert your Rock Paper Scissors solution to jQuery!
+Convert your Rock Paper Scissors solution to jQuery.
+Remember to add jQuery script to your page.
 
-Remember to add jQuery script to your page. 
-
+Time: 15 minutes.
 
 ---
 
@@ -174,7 +185,7 @@ Show and hide allow you to make elements visible or hide them!
 
 You'll see some common patterns involving DOM manipulation.
 
-Adding/Removing classes is pretty common
+Adding/Removing classes is pretty common to change styling. This allows us to make sure all our styling is ONLY in our css files.
 
 ```
 
@@ -183,10 +194,19 @@ $("a").removeClass("active");
 
 ```
 
+Common Use: When you have a series of links and the current active page one has different styling.
+
 ---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ## Black Out!
+
+Objectives:
+
+* Remove and add classes in order to build functionality
+* Read the CSS file for an assignment in order to understand what's available to you.
+
+* Advanced: With some functionality provided by jQuery, you can implement your click function with one line. Read the jQuery documentation and figure it out. 
 
 ---
 
@@ -225,5 +245,12 @@ Why can you do this? Because just like $("p") returns back the DOM element, .rem
 ---
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##CitiPix
+##jQuery Basic Tabs
+
+--- 
+
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+##Citipix
+
+
 
