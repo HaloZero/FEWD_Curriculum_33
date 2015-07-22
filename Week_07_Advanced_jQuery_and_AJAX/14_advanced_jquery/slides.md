@@ -9,7 +9,7 @@
 
 ##Agenda
 
-*	Review of jQuery
+* Review of jQuery
 * Creating HTML
 * Event Objects
 * Traversing
@@ -24,8 +24,9 @@ You can target a tag, ID, or class. Remember, the selector goes at the beginning
 ```
 $("#id-here")
 $(".class-here")
-$("p")
+$("tag")
 ```
+
 
 ---
 
