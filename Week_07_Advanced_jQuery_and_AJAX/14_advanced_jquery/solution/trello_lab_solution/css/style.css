@@ -155,3 +155,16 @@ nav ul li {
      margin: 10px 0;
      font-size: 15px;
 }
+
+h1 {
+     font-size: 2.5em;
+}
+
+h2 {
+     font-size: 2.2em;
+}
+
+h1, h2 {
+     text-align: center;
+     font-weight: bold;
+}
