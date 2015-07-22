@@ -55,7 +55,7 @@ $("body").append(anchorTag);
 
 ```
 
-Note: The use of the <> tells jQuery that you wnat to create a new Element!
+Note: The use of the <> tells jQuery that you want to create a new Element!
 
 ---
 
@@ -82,7 +82,7 @@ So in this case $(event.target) will be $(#"some-id");
 
 ##Nature Images
 
-![GeneralAssemb.ly](../../img/icons/code_along.png)
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 
 Objectives: Learn to use $(event.target) to make your functions easier.
 
