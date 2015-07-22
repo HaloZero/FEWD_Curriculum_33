@@ -35,99 +35,32 @@ If you wanted to add an attribute to an element, you would use .attr:
 
 ```
   $("li.menu").attr("class", "open");
+  $("img").attr("src", "grumpy-cat.jpg");
 ```
 
 The syntax when using .attr is: .attr("attributename", "value");
 
----
-
-##Useful Functions##
-
-To show and hide elements on the page you can use
-
-```
-$("p").show()
-$("p").hide()
-$("p").toggle()
-```
-
-These are the equivalent of setting display: block (show) and display: none (hide) in CSS.
-
----
-
-##Useful Functions##
-
-Toggle will automatically switch beween hiding and showing for you.
-
-```
-$("p").toggle()
-```
-
----
-
-##Useful Functions##
-
-Some basic animation
-
-Sliding things up and down:
-
-```
-$("p").slideUp()
-$("p").slideDown()
-```
-
-Fading in and out:
-
-```
-$("p").fadeIn()
-$("p").fadeOut()
-
-```
-
-What is this actually doing? It's just modifying the CSS for you!
-
----
-
-##Useful Functions##
-
-```
-$("p").slideToggle()
-$("p").fadeToggle()
-```
-
-Works the same way as toggle. But will do the animation!
-
----
-
-##jQuery Returns Arrays
-
-$("a") will return all HTML elements with a a tag
-
-```
-$("a").removeClass('active')
-```
-
-This will magically remove 'active' class to each element.
-
----
-
-## Code Along ##
-
-![GeneralAssemb.ly](../img/icons/code_along.png)
-
----
+--- 
 
 ## Creating HTML in jQuery ##
 
 You can create some basic HTML elements in jQuery!
 
-You can then put it into your HTML!
+You can then put it into your HTML by using .append();
 
 ```
 var anchorTag = $("<a>").text('Hello');
 $("body").append(anchorTag);
 
 ```
+
+Note: The use of the <> tells jQuery that you wnat to create a new Element!
+
+---
+
+##Bookmarks
+
+![GeneralAssemb.ly](../../img/icons/code_along.png)
 
 ---
 
@@ -143,7 +76,17 @@ $("#some-id").click(function(event) {
 
 So in this case $(event.target) will be $(#"some-id");
 
+
 ---
+
+##Nature Images
+
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+
+Objectives:
+
+---
+
 
 ## Traversing the Tree ##
 
@@ -174,6 +117,17 @@ For instance your HTML is
 
 ---
 
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+
+## Changing Color ##
+
+Objectives:
+
+* Use our knowledge of tree traversal to modify the container
+* Utilize our knowledge of event.target to determine what color to change it to!
+
+---
+
 ## Event Propogation ##
 
 You can stop an event from continuing on it's normal practice.
@@ -192,4 +146,5 @@ What do you use it for:
 ---
 
 ## Lab ##
+
 
