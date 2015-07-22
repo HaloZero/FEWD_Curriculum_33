@@ -5,8 +5,10 @@ function addToScore(scoreChange) {
   document.getElementById("score").innerHTML = score;
 }
 
-function updateStatus(userWon) {
-  if (userWon) {
+function high() {
+  var diceRoll = rollADice() + rollADice();
+  document.getElementById("dice_roll").innerHTML = diceRoll;
+  if (diceRoll > 7) {
     addToScore(1);
     document.getElementById("status").innerHTML = "You WIN";
   } else {
@@ -15,25 +17,28 @@ function updateStatus(userWon) {
   }
 }
 
-function high() {
-  var diceRoll = rollADice() + rollADice();
-  document.getElementById("dice_roll").innerHTML = diceRoll;
-  var userWon = diceRoll > 7;
-  updateStatus(userWon);
-}
-
 function seven() {
   var diceRoll = rollADice() + rollADice();
   document.getElementById("dice_roll").innerHTML = diceRoll;
-  var userWon = diceRoll === 7;
-  updateStatus(userWon);
+  if (diceRoll === 7) {
+    addToScore(1);
+    document.getElementById("status").innerHTML = "You WIN";
+  } else {
+    addToScore(-1);
+    document.getElementById("status").innerHTML = "You lost";
+  }
 }
 
 function low() {
   var diceRoll = rollADice() + rollADice();
   document.getElementById("dice_roll").innerHTML = diceRoll;
-  var userWon = diceRoll < 7;
-  updateStatus(userWon);
+  if (diceRoll < 7) {
+    addToScore(1);
+    document.getElementById("status").innerHTML = "You WIN";
+  } else {
+    addToScore(-1);
+    document.getElementById("status").innerHTML = "You lost";
+  }
 }
 
 
