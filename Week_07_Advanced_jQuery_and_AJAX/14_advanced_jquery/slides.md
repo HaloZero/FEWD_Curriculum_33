@@ -83,7 +83,7 @@ So in this case $(event.target) will be $(#"some-id");
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 
-Objectives:
+Objectives: Learn to use $(event.target) to make your functions easier.
 
 ---
 
@@ -145,6 +145,14 @@ What do you use it for:
 
 ---
 
-## Lab ##
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+
+## Trello Lab ##
+
+Objectives:
+
+* Use the structure of the HTML and our knowledge of DOM Traversal to make one function that works on both lists. 
+* 
+
 
 
