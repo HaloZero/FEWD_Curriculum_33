@@ -1,0 +1,27 @@
+a {
+  display: block;
+}
+
+#main-container {
+  overflow: auto;
+  border: 5px solid black;
+  padding: 25px;
+}
+
+#main-container img{
+  float: left;
+  width: 25%;
+  height: 125px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+#images-container {
+  padding: 2%;
+  text-align: center;
+}
+#images-container img {
+  width: 30%;
+  height: 125px;
+  padding-right: 2%;
+}
