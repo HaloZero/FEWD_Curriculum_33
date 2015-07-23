@@ -43,28 +43,6 @@ The syntax when using .attr is: .attr("attributename", "value");
 
 --- 
 
-## Creating HTML in jQuery ##
-
-You can create some basic HTML elements in jQuery!
-
-You can then put it into your HTML by using .append();
-
-```
-var anchorTag = $("<a>").text('Hello');
-$("body").append(anchorTag);
-
-```
-
-Note: The use of the <> tells jQuery that you want to create a new Element!
-
----
-
-##Bookmarks
-
-![GeneralAssemb.ly](../../img/icons/code_along.png)
-
----
-
 ## Event Target ##
 
 The function that you pass into click gives you access to an event object
@@ -88,6 +66,27 @@ Objectives: Learn to use $(event.target) to make your functions easier.
 
 ---
 
+## Creating HTML in jQuery ##
+
+You can create some basic HTML elements in jQuery!
+
+You can then put it into your HTML by using .append();
+
+```
+var anchorTag = $("<a>").text('Hello');
+$("body").append(anchorTag);
+
+```
+
+Note: The use of the <> tells jQuery that you want to create a new Element!
+
+---
+
+##Bookmarks
+
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+
+---
 
 ## Traversing the Tree ##
 
