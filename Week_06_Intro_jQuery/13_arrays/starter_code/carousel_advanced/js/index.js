@@ -14,7 +14,8 @@ function prevImage() {
 function nextImage() {
   if (currentIndex < images.length-1) {
     currentIndex = currentIndex + 1;
-  } else {
+  }
+  if (currentIndex == images.length -1) {
     calculateVotes();
   }
   $("#image-to-display").attr('src', images[currentIndex]);
