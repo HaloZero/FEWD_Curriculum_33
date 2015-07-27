@@ -131,11 +131,19 @@ A special note for jQuery functions. If your jQuery selector returns multiple ti
 
 ---
 
+
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##Arrays
 
+---
+
+
+![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
+##Carousel
+
 
 ---
+
 
 
 ##Iterate over Array
@@ -189,6 +197,4 @@ For many more Array methods see:https://developer.mozilla.org/en-US/docs/JavaS
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
 ##Carousel Advanced
-
----
 
