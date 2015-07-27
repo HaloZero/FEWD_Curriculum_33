@@ -8,7 +8,8 @@
 /**
  * Question 1
  * Create an array of numbers using 1,2,3, and 4 as values. Use forEach to increase each value by 1 and store the value back in the array.
-The end result should be an array of numbers with values 2,3,4,5
+	The end result should be an array of numbers with values 2,3,4,5
+	This is an exercise in manipulating an already existing array.
  */
 
 var q1;
@@ -16,6 +17,7 @@ var q1;
 /**
 * Question 2
 * Create an array of names with Will, Nevan, and Jessica as values. Append each of these names to the class-list element using forEach.
+* This is an example of using an array to create dynamic HTML content
 */
 
 var q2;
@@ -23,6 +25,7 @@ var q2;
 /**
  * Question 3
  * Using the array from Question 1, find the average of the numbers in the array (average=sum of all numbers/number of numbers). Store the average in q2.
+ * This is an example of using arrays to do calculations.
  */
 
 var q3;

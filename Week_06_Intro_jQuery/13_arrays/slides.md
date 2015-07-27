@@ -27,18 +27,9 @@
 
 What if we had a collection of images that we wanted to display to the screen one at a time?
 
-How could we store all the images?
+How could we store all the images in the order we want?
 
 ---
-
-
-##Arrays
-
-What is an array?
-
----
-
-
 
 ##Declaring Arrays
 
@@ -126,32 +117,53 @@ What if I would like to know how long my array is (how many elements)?
 	var myArr = ['Apples', 'Oranges', 'Pears', 'Bananas'];
 	console.log(myArr.length); //prints 4
 
+
+--- 
+
+##jQuery 
+
+A special note for jQuery functions. If your jQuery selector returns multiple times you can get an item at index by calling *eq*
+
+```
+	$("img").eq(0) // 1st img tag found
+	$("img").eq(5) // 4th img tag found
+```
+
 ---
 
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##Arrays
 
+
 ---
 
 
-##Iterate Over Array
+##Iterate over Array
+
+You can iterate over an array in two ways:
+
+var fruits=[“Banana”,”Apple”,”Pear”]
+for (var index = 0; i < fruits.length; index++) {
+	console.log(fruits[index]); // prints out the element at that index in fruits array
+}
+
+You're basically counting from 0 to the length of the array.
+
+---
+
+##Iterate over array
 
 Allows you to run code using each element from the array as a value
+
 Syntax:
 
-	Array.forEach
-
-
-
----
-
-
-##Array Length
-
+```
 	var fruits=[“Banana”,”Apple”,”Pear”]
-		fruits.forEach(function(element,index){
+	fruits.forEach(function(element,index){
 		console.log(element,index);
 	});
+```
+
 
 Note:
 Element is the item from the array
@@ -161,13 +173,18 @@ As always, code we want to execute goes between curly braces
 ---
 
 
+![GeneralAssemb.ly](../../img/icons/code_along.png)
+##Loops
+
+--- 
+
+
 ##More on Arrays
 
 For many more Array methods see:https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Array
 
 
 ---
-
 
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
