@@ -188,6 +188,7 @@ For many more Array methods see:https://developer.mozilla.org/en-US/docs/JavaS
 
 
 ![GeneralAssemb.ly](../../img/icons/exercise_icon_md.png)
-##Carousel
+##Carousel Advanced
 
 ---
+

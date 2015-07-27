@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Carousel Advanced</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	</head>
+	<body>
+			<div id="container">
+				<img id="image-to-display" src="images/food1.jpg">
+				<div class="progress-meter">
+					<span class="progress active"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+					<span class="progress"></span>
+				</div>
+				<div></div>
+				<div id="rating">
+					<span>You have reached the end.<br> Total deliciousness score was: <span id="score">0</span></span>
+				</div>
+				<div id="buttons-wrapper">
+					<div id="rating-widget">
+						<span>Rate this Food:</span>
+						<select id="your-vote">
+							<option value=""></option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+						</select>
+					</div>
+					<form>
+						<input type="button" class="btn" value="Back" id="back-button">
+					</form>
+				</div>
+			</div>
+			<footer>
+
+			</footer>
+		<!-- #container -->
+		<script src="js/index.js"></script>
+	</body>
+</html>
