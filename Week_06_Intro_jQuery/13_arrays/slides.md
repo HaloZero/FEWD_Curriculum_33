@@ -102,11 +102,13 @@ We can insert new values into any space in the array using the positions index.
 
 We can overwrite all the elements of an array simply by giving the array new values or by setting an array equal to a different array.
 
-	var fruits = ['Apples', 'Oranges', 'Pears', 'Bananas'];
+```
+	var fruits = ["Apples", "Oranges", "Pears", "Bananas"];
 	var myArr=[1,2,3];
 	myArr = fruits;
 
 	console.log(myArr); //prints Apples, Oranges, Pears, Bananas
+```
 
 ---
 
@@ -118,9 +120,9 @@ What if I would like to know how long my array is (how many elements)?
 	console.log(myArr.length); //prints 4
 
 
---- 
+---
 
-##jQuery 
+##jQuery
 
 A special note for jQuery functions. If your jQuery selector returns multiple times you can get an item at index by calling *eq*
 
@@ -150,10 +152,13 @@ A special note for jQuery functions. If your jQuery selector returns multiple ti
 
 You can iterate over an array in two ways:
 
-var fruits=[“Banana”,”Apple”,”Pear”]
-for (var index = 0; i < fruits.length; index++) {
-	console.log(fruits[index]); // prints out the element at that index in fruits array
-}
+```
+	var fruits= ["Banana","Apple","Pear"]
+	for (var index = 0; i < fruits.length; index++) {
+		console.log(fruits[index]);
+		// prints out element at that index in fruits array
+	}
+```
 
 You're basically counting from 0 to the length of the array.
 
@@ -166,7 +171,7 @@ Allows you to run code using each element from the array as a value
 Syntax:
 
 ```
-	var fruits=[“Banana”,”Apple”,”Pear”]
+	var fruits=["Banana","Apple","Pear"]
 	fruits.forEach(function(element,index){
 		console.log(element,index);
 	});
@@ -184,7 +189,7 @@ As always, code we want to execute goes between curly braces
 ![GeneralAssemb.ly](../../img/icons/code_along.png)
 ##Loops
 
---- 
+---
 
 
 ##More on Arrays
