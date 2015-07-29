@@ -141,9 +141,8 @@ How do you know which is which?
     "count": 2,
     "key-can-be-any-string": "doesn't matter",
     "more_JSON":
-      {
-        "just_more_json" : "whee"
-      }
+    {
+    	"just_more_json" : "whee"
     }
   }
 ```
@@ -158,7 +157,8 @@ How do you know which is which?
 
 ## Retrieving things from JSON
 
-One I retrieve something from my JSON, I can use my previous knowledge of arrays, strings, and etc to retrieve more information!
+I can use my previous knowledge
+
 
 ```
   var myJSON = {
@@ -166,9 +166,8 @@ One I retrieve something from my JSON, I can use my previous knowledge of arrays
     "count": 2,
     "key-can-be-any-string": "doesn't matter",
     "more_JSON":
-      {
-        "just_more_json" : "whee"
-      }
+    {
+    	"just_more_json" : "whee"
     }
   }
 ```
@@ -203,7 +202,7 @@ One I retrieve something from my JSON, I can use my previous knowledge of arrays
 ```
 
 --- 
-## Lab - Spotify Playlist
+## Lab - iTunes Artist
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 
