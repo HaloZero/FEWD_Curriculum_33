@@ -33,3 +33,17 @@ var musicPlaylist = {
     }
   ]
 };
+
+
+// Step 1:
+// Get the first artistName, track, etc into different variables. Use code to retrieve it.
+
+
+// Step 2:
+// Use your knowledge of jQuery to modify the first div with class 'song' on the page with the information above
+
+// Step 3:
+// Now make a loop that iterates over the array stored in the key 'results'
+
+// Step 4:
+// Combine your code in Step 2 and 3 to make this work for all 4 songs.
