@@ -7,10 +7,11 @@
 
 /**
  * Question 1
- * Create an array of image sources. Use the strings 'image1.jpg', 'image2.jpg', and 'image3.jpg' as the array values.
+ * Create an array of image sources and store it in the variable q1. Use the strings 'image1.jpg', 'image2.jpg', and 'image3.jpg' as the array values.
  */
 
 var q1;
+
 /**
  * Question 2
  * Using the array from Question 1, store the first element
@@ -42,3 +43,4 @@ var q4;
  *  and the last image on a web page to the src stored in q4.
  *  Extra Credit: Set the second image to to the 2nd element in the array
  */
+
