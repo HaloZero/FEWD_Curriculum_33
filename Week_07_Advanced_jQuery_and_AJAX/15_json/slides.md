@@ -119,7 +119,7 @@ Values can anything
 How do you know which is which?
 
 ```
-  var json = {
+  var myJSON = {
     "names": ["David", "June"],
     "count": 2,
     "key-can-be-any-string": "doesn't matter",
@@ -133,6 +133,76 @@ How do you know which is which?
 
 ---
 
+## Retrieving things from JSON
+
+```
+  var myJSON = {
+    "names": ["David", "June"],
+    "count": 2,
+    "key-can-be-any-string": "doesn't matter",
+    "more_JSON":
+      {
+        "just_more_json" : "whee"
+      }
+    }
+  }
+```
+
+``` 
+	myJSON["names"] // returns ["David", "June"]
+	myJSON["count"] // returns 2
+	myJSON["more_JSON"] // returns {"just_more_json" : "whee"}
+```
+
+--- 
+
+## Retrieving things from JSON
+
+One I retrieve something from my JSON, I can use my previous knowledge of arrays, strings, and etc to retrieve more information!
+
+```
+  var myJSON = {
+    "names": ["David", "June"],
+    "count": 2,
+    "key-can-be-any-string": "doesn't matter",
+    "more_JSON":
+      {
+        "just_more_json" : "whee"
+      }
+    }
+  }
+```
+
+``` 
+	myJSON["names"] // returns ["David", "June"]
+	myJSON["names"][0] // returns "David"
+	myJSON["more_JSON"] // returns {"just_more_json" : "whee"}
+	myJSON["more_JSON"]["just_more_json"] // returns "whee"
+```
+
+---
+
+## Settings things in jSON
+
+```
+  var myJSON = {
+    "names": ["David", "June"],
+    "count": 2,
+    "key-can-be-any-string": "doesn't matter",
+    "more_JSON":
+      {
+        "just_more_json" : "whee"
+      }
+    }
+  }
+```
+
+```
+	myJSON["count"] = 5
+	myJSON["more_JSON"]["just_more_json"] = "whoo"
+```
+
+--- 
 ## Lab - Spotify Playlist
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
