@@ -1,0 +1,53 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+h3 {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+#container {
+  position: relative;
+  height: 250px;
+}
+
+
+
+#container img:first-child {
+  position: absolute; 
+  left: 0px;
+  top: 0px;
+  z-index: 5;
+}
+
+#container img[alt='image 2'] {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+
+#container img[alt='image 3'] {
+  position: absolute;
+  left: 350px;
+  top: 0px;
+}
