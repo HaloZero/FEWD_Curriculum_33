@@ -39,6 +39,6 @@ musicPlaylist['results'].forEach(function(song, index) {
   songContainer.find('img').attr('src', song['artworkUrl100']);
   songContainer.find('.title').text(song['trackName']);
   songContainer.find('.artist_name').text(song['artistName']);
-  songContainer.find('.track_price').text(song['trackPrice']);
+  songContainer.find('.price').text(song['trackPrice']);
   songContainer.find('a').attr('href', song['previewUrl']);
 });

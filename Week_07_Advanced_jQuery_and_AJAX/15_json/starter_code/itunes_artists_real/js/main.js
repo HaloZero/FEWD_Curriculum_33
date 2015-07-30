@@ -1,6 +1,5 @@
-// use this JSON to fill in the HTML fields!
-// use the example to see what it's supposed to look like
+// Fill in your code from your iTunes artist code into the function below on line 4
 
 $.getJSON('https://itunes.apple.com/search?term=abba', function(musicPlaylist) {
-  console.log(musicPlaylist);
+
 });
