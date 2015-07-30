@@ -40,10 +40,12 @@ var musicPlaylist = {
 
 
 // Step 2:
-// Use your knowledge of jQuery to modify the first div with class 'song' on the page with the information above
+// Use your knowledge of jQuery to modify the HTML elements inside the divs with class 'song' with the appropriate variables
+// Why only inside .song? Because we don't want to modify the example song!
 
 // Step 3:
 // Now make a loop that iterates over the array stored in the key 'results'
 
 // Step 4:
-// Combine your code in Step 2 and 3 to make this work for all 4 songs.
+// Put all your code from Step 1 and Step 2 into the loop into Step 3. Modify it so that it works with your variable inside your loop instead of 0
+
