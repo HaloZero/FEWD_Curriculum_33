@@ -23,8 +23,8 @@ var q1;
 
 /**
  * Question 2
- * There's a typo in myJSON with the key 'slideshow_name', correct it to be 'Pac-Man'
- * Store q2 the newly modified value of the key 'slideshow_name'
+ * Change q2 to be the string 'Pac-Man'
+ * There's a typo in myJSON with the key 'slideshow_name', correct it to be 'Pac-Man' / q2.
  */
 
 var q2;
@@ -55,6 +55,7 @@ var q5;
 /**
  * Question 6
  * Using q5, now get the value of the key 'class_to_add' from q5
+ * Bonus: Now write it only using myJSON and no previous q values
  */
 
  var q6;
@@ -64,6 +65,7 @@ var q5;
  /**
  * Question 7
  * Set the 3 images on the page to the images in q1
+ * Bonus: use a loop to simplify this.
  */
 
 
