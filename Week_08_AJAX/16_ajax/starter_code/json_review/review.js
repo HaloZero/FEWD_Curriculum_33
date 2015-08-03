@@ -57,4 +57,4 @@ var movieJSON = {
 // console.log the name of 2nd actor in movie by using Javascript
 
 // Extra credit:
-// console.log the list of names of each actor using forEach
+// console.log the list of names of each actor using loops (extra extra credit if you do it both ways)
