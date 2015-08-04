@@ -177,49 +177,16 @@ Before AJAX every time you would have to refresh a page for every action
 
 ---
 
-## How do we retrieve things?
-
-Here's how you really do you AJAX!
-
-```
-var xmlhttp;
-
-if (window.XMLHttpRequest) {
-    // code for IE7+, Firefox, Chrome, Opera, Safari
-    xmlhttp = new XMLHttpRequest();
-} else {
-    // code for IE6, IE5
-    xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-}
-
-xmlhttp.onreadystatechange = function() {
-    if (xmlhttp.readyState == 4 ) {
-       if(xmlhttp.status == 200){
-           document.getElementById("myDiv").innerHTML = xmlhttp.responseText;
-       }
-       else if(xmlhttp.status == 400) {
-          alert('There was an error 400')
-       }
-       else {
-           alert('something else other than 200 was returned')
-       }
-    }
-}
-
-xmlhttp.open("GET", "ajax_info.txt", true);
-xmlhttp.send();
-```
-
----
-
 ## jQuery AJAX
 
-Kidding! jQuery makes it easier
+jQuery makes it easy
 
 ```
-  $.getJSON('http://www.omdbapi.com/?s=breaking+bad', function(responseJSON) {
+  $.getJSON('http://www.omdbapi.com/?s=breaking+bad',
+    function(responseJSON) {
       // this is the function you call when the data comes back
-  });
+    }
+  );
 ```
 
 $.getJSON takes in 2 arguments

@@ -27,7 +27,7 @@ The endpoint is the url at which the API resides.
 Parameters are used to modify what data you want back.
 
 ---
- 
+
 ## AJAX!
 
 AJAX stands for Asynchronous Javascript and XML
@@ -41,10 +41,13 @@ Before AJAX every time you would have to refresh a page for every action
 Kidding! jQuery makes it easier
 
 ```
-  $.getJSON('http://www.omdbapi.com/?s=breaking+bad', function(responseJSON) {
+  $.getJSON(
+    'http://www.omdbapi.com/?s=breaking+bad',
+    function(responseJSON) {
       // this is the function you call when the data comes back
       console.log(responseJSON);
-  });
+    }
+  );
 ```
 
 $.getJSON takes in 2 arguments
@@ -54,7 +57,7 @@ $.getJSON takes in 2 arguments
 
 ---
 
-## Scope 
+## Scope
 
 ```
   $.getJSON('http://www.omdbapi.com/?s=breaking+bad', function(responseJSON) {
@@ -63,15 +66,16 @@ $.getJSON takes in 2 arguments
   console.log(responseJSON); // THIS DOESN'T WORK!
 ```
 
-Variables inside functions only exist inside that function. Variables cannot move outside the function. 
+Variables inside functions only exist inside that function. Variables cannot move outside the function.
 
 ---
-## Asynchronous 
+## Asynchronous
 
 ```
   // doesn't work!
-  var thisIsNotJSON = $.getJSON('http://www.omdbapi.com/?s=breaking+bad', function(responseJSON) {
-  	  // this is the only place 
+  var thisIsNotJSON = $.getJSON('http://www.omdbapi.com/?s=breaking+bad',
+  function(responseJSON) {
+  	  // this is the only place
       console.log(responseJSON);
   });
   console.log(thisIsNotJSON);
