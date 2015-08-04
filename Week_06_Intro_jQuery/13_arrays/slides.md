@@ -154,7 +154,7 @@ You can iterate over an array in two ways:
 
 ```
 	var fruits= ["Banana","Apple","Pear"]
-	for (var index = 0; i < fruits.length; index++) {
+	for (var index = 0; index < fruits.length; index++) {
 		console.log(fruits[index]);
 		// prints out element at that index in fruits array
 	}
