@@ -1,3 +1,6 @@
+// 
+// Including Crypto.js for SHA-1 Hashing
+// 
 /*
 CryptoJS v3.1.2
 code.google.com/p/crypto-js
@@ -16,6 +19,9 @@ g)-899497514);l=g;g=h;h=j<<30|j>>>2;j=n;n=c}b[0]=b[0]+n|0;b[1]=b[1]+j|0;b[2]=b[2
 (function(){var g=CryptoJS,l=g.enc.Utf8;g.algo.HMAC=g.lib.Base.extend({init:function(e,d){e=this._hasher=new e.init;"string"==typeof d&&(d=l.parse(d));var g=e.blockSize,k=4*g;d.sigBytes>k&&(d=e.finalize(d));d.clamp();for(var p=this._oKey=d.clone(),b=this._iKey=d.clone(),n=p.words,j=b.words,h=0;h<g;h++)n[h]^=1549556828,j[h]^=909522486;p.sigBytes=b.sigBytes=k;this.reset()},reset:function(){var e=this._hasher;e.reset();e.update(this._iKey)},update:function(e){this._hasher.update(e);return this},finalize:function(e){var d=
 this._hasher;e=d.finalize(e);d.reset();return d.finalize(this._oKey.clone().concat(e))}})})();
 
+// 
+// Including O-Auth Signature for signing requests
+// 
 /*
 CryptoJS v3.1.2
 code.google.com/p/crypto-js
@@ -307,13 +313,28 @@ e;d++)if(d%4){var g=f.indexOf(b.charAt(d-1))<<2*(d%4),h=f.indexOf(b.charAt(d))>>
     }
 })();
 
+// Generate nonce
+var randomString = function(length) {
+    var text = "";
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    for(var i = 0; i < length; i++) {
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    }
+    return text;
+}
+
+YelpConfig = {}
+YelpConfig.consumerKey = 'rR3CLfZuHXmWmJG-lILihw';
+YelpConfig.consumerSecret = 'Ij9sMs0oVw74qsL3roudsv4NGi0';
+YelpConfig.token = 'e1dL3nPv577dK4KG7UKuU78b3bAMlUj0';
+YelpConfig.tokenSecret = 'DMBdjQCLXBoSqE9aTIcfao8NUE8';
 
 function yelpSearch(yelp_url, data, success, failure) {
     var httpMethod = 'GET',
     parameters = {
-        oauth_consumer_key : 'rR3CLfZuHXmWmJG-lILihw',
-        oauth_token : 'e1dL3nPv577dK4KG7UKuU78b3bAMlUj0',
-        oauth_nonce : 'kllo9940pd9333jh',
+        oauth_consumer_key : YelpConfig.consumerKey,
+        oauth_token : YelpConfig.token,
+        oauth_nonce : randomString(),
         oauth_timestamp : Math.floor(Date.now()/1000),
         oauth_signature_method : 'HMAC-SHA1',
         oauth_version : '1.0',
@@ -323,8 +344,8 @@ function yelpSearch(yelp_url, data, success, failure) {
         parameters[attrname] = data[attrname];
     }
 
-    var consumerSecret = 'Ij9sMs0oVw74qsL3roudsv4NGi0',
-    tokenSecret = 'DMBdjQCLXBoSqE9aTIcfao8NUE8',
+    var consumerSecret = YelpConfig.consumerSecret,
+    tokenSecret = YelpConfig.tokenSecret,
     // generates a RFC 3986 encoded, BASE64 encoded HMAC-SHA1 hash
     encodedSignature = oauthSignature.generate(httpMethod, yelp_url, parameters, consumerSecret, tokenSecret),
     // generates a BASE64 encode HMAC-SHA1 hash
@@ -349,6 +370,12 @@ function yelpSearch(yelp_url, data, success, failure) {
     $.ajax(settings);
 }
 
+// example!
+// yelpSearch(
+//     "http://api.yelp.com/v2/search", 
+//     {'term' : 'chinese', 'location' : 'San Francisco'},
+//     function (response) { console.log(response); },
+//     null)
 
 
 
