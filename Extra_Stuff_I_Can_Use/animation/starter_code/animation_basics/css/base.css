@@ -1,0 +1,29 @@
+.container {
+	width: 300px;
+	border: 1px solid black;
+	height: 300px;
+	float: left;
+	padding: 10px;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	position: relative;
+}
+
+.box_1 {
+	background-color: red;
+}
+
+.box_2 {
+	background-color: purple;
+}
+
+.box_3 {
+	background-color: orange;
+}
+
+.box_4 {
+	background-color: yellow;
+}
