@@ -1,6 +1,6 @@
 ![GeneralAssemb.ly](../../img/icons/FEWD_Logo.png)
 
-#FEWD - Animatinos
+#FEWD - Animations
 
 ###Rohan Dhaimade
 
