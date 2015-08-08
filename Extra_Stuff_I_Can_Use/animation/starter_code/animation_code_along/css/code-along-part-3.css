@@ -1,0 +1,45 @@
+.transform-translate {
+	transform: translate(100px, 50px);
+}
+
+.transform-rotate {
+	transform: rotate(20deg);
+}
+
+.transform-flip-X {
+	transform: rotateX(180deg);
+}
+
+.transform-flip-Y {
+	transform: rotateY(180deg);
+}
+
+.transform-scale-grow {
+	transform: scale(2, 3);
+}
+
+.transform-scale-shrink {
+	transform: scale(0.5, 0.5);
+}
+
+.transform-skew-x {
+	transform: skewX(20deg);
+}
+
+.transform-skew-y {
+	transform: skewY(30deg);
+}
+
+@keyframes boom {
+	0%		{
+		transform: scale(1, 1);
+	}
+
+	50%	{
+		transform: scale(3, 3);
+	}
+
+	100%	{
+		transform: scale(1,1); 
+	}
+}

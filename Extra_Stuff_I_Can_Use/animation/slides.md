@@ -137,6 +137,63 @@ Modify your HTML to remove the link tag that links code-along-part-1.css so it d
 
 ---
 
+
+## Easing Functions
+
+You can produce different animation functions. By default it's "linear"
+
+```
+	animation-timing-function: ease;
+```
+
+The easing functions are:
+
+* ease-in
+* ease-out
+* ease-in-out
+* step-start
+* step-end
+
+See how they work yourself.
+
+---
+
+## Delays
+
+```
+	animation-delay: 1s;
+```
+
+Allows you to add delays to the animation start
+
+---
+
+## Transforms
+
+You can also do some interesting fun little transforms
+
+```
+	transform: translate(50px, 100px);
+```
+
+The options available to you are:
+
+* translate
+* rotate
+* rotateX
+* rotateY
+* scale
+* skewX
+* skewY
+
+---
+
+Exercise 2
+
+
+---
+
+
 ## Using Animations to do interactivity
 
 Let's put our shake animation code into a separate class
@@ -174,7 +231,6 @@ Now we can add a class to any element and that'll cause it to shake!
 	$(".box_1").click(function () {
 		$(".box_1").addClass("shake");
 	});
-
 ```
 
 This allows us to shake the button! Everytime you click box 1, it adds our class which triggers the animation.
@@ -216,80 +272,3 @@ CSS is styling
 Javascript is interaction & logic
 
 ---
-
-## Easing Functions
-
-You can produce different animation functions. By default it's "linear"
-
-```
-	animation-timing-function: ease;
-```
-
-The easing functions are:
-
-* ease-in
-* ease-out
-* ease-in-out
-* step-start
-* step-end
-
-See how they work yourself.
-
----
-
-## Delays
-
-```
-	animation-delay: 1s;
-```
-
-Allows you to add delays to the animation start
-
----
-
-
-
----
-
-
-
-## Transforms
-
-You can also do some interesting fun little transforms
-
-```
-	transform(50px, 100px);
-```
-
-
----
-## Using Javascript Animate
-
-We can do a lot using css animation but sometimes you need javascript to do special animations.
-
-CSS animations can only affect css properties. What happens if you want to change an image source?
-
-```
-	$(".image_1").animate(
-		{
-			opacity: 0
-		}, 
-		1000,
-		function() {
-			console.log("Animation complete");
-		});
-```
-
-Animate takes in 3 arguments:
-
-* The dictionary of changes you want to make
-* The time in milliseconds (1000 milliseconds to a second)
-* The function to call when the animation is done
-
----
-
-
-![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
-
-
-
