@@ -177,7 +177,7 @@ Now we can add a class to any element and that'll cause it to shake!
 
 ```
 
-This allows us to shake the button! Everytime you click box 1, it adds our class which triggers the animation!
+This allows us to shake the button! Everytime you click box 1, it adds our class which triggers the animation.
 
 --- 
 
@@ -185,7 +185,7 @@ This allows us to shake the button! Everytime you click box 1, it adds our class
 
 We can't do it again though, it only shakes once :(
 
-How do we know if the animation has ended?
+How do we know if the animation has ended? Let's use Javascript to remove the class.
 
 ```
 	$(".box_1").click(function () {
@@ -203,9 +203,91 @@ jQuery.one allows us to trigger an function on an event only once.
 First argument is the events you want to listen to
 Second is the function you want to execute
 
+---
+
+## Using Animations to do interactivity
+
+Important: You'll note for all of this, all the javascript does add and remove classes! All the animation and changes are in CSS.
+
+This makes your code into separate parts.
+
+HTML is structure
+CSS is styling 
+Javascript is interaction & logic
+
+---
+
+## Easing Functions
+
+You can produce different animation functions. By default it's "linear"
+
+```
+	animation-timing-function: ease;
+```
+
+The easing functions are:
+
+* ease-in
+* ease-out
+* ease-in-out
+* step-start
+* step-end
+
+See how they work yourself.
+
+---
+
+## Delays
+
+```
+	animation-delay: 1s;
+```
+
+Allows you to add delays to the animation start
+
+---
+
 
 
 ---
+
+
+
+## Transforms
+
+You can also do some interesting fun little transforms
+
+```
+	transform(50px, 100px);
+```
+
+
+---
+## Using Javascript Animate
+
+We can do a lot using css animation but sometimes you need javascript to do special animations.
+
+CSS animations can only affect css properties. What happens if you want to change an image source?
+
+```
+	$(".image_1").animate(
+		{
+			opacity: 0
+		}, 
+		1000,
+		function() {
+			console.log("Animation complete");
+		});
+```
+
+Animate takes in 3 arguments:
+
+* The dictionary of changes you want to make
+* The time in milliseconds (1000 milliseconds to a second)
+* The function to call when the animation is done
+
+---
+
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 
