@@ -1,26 +1,26 @@
 /* Adding css animations and rules to this css file only */
-Animation durations should always be 1 second in all these exercises
+/*Animation durations should always be 1 second in all these exercises*/
 
-Question 1:
-Try to make Box 1 fade in and out.
+/*Question 1:*/
+/*Try to make Box 1 fade in and out.*/
 
-Question 2: 
-Make box 2 move down and fade out
+/*Question 2: */
+/*Make box 2 move down and fade out*/
 
-Question 3:
-Make Box 3 move around the containing box square infinetly
+/*Question 3:*/
+/*Make Box 3 move around the containing box square infinetly*/
 
-Question 4:
-Make box 4 shake back and forth 5 times. 
-Change the duration to 0.25s to make it faster
+/*Question 4:*/
+/*Make box 4 shake back and forth 5 times. */
+/*Change the duration to 0.25s to make it faster*/
 
-Question 5:
-Now modify your rules to make box 1 fade in and out 3 times.
+/*Question 5:*/
+/*Now modify your rules to make box 1 fade in and out 3 times.*/
 
-Question 6:
-Did you use animation-direction in Question 5? 
-If you didn't notice the transition between animations is abrupt
-Fix it so it looks smooth.
+/*Question 6:*/
+/*Did you use animation-direction in Question 5? */
+/*If you didn't notice the transition between animations is abrupt*/
+/*Fix it so it looks smooth.*/
 
-Challenge mode: 
-Try to make a box move around forming the letter T
+/*Challenge mode: */
+/*Try to make a box move around forming the letter T*/
