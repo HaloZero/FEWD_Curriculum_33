@@ -1,0 +1,27 @@
+.pin {
+	width: 35px;
+	height: 35px;
+	position: relative;
+}
+
+.row {
+	position: relative;
+}
+.pins .row:nth-child(2) {
+	left: 20px;
+}
+
+.pins .row:nth-child(3) {
+	left: 40px;
+}
+
+.pins .row:nth-child(4) {
+	left: 60px;
+}
+
+ Thinking of adding keyframe animations so that
+ the bowling pins fall randomly in some order
+ But that might not look realistic as the falling 
+ might not be what is typical of bowling pins trying to
+ simulate the physics of it might be too hard in css
+ 
