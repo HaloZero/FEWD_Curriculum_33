@@ -26,7 +26,16 @@
 	    	top: 200px;
 	    }
 	}
-	
+```
+
+New css ability! @keyframes
+
+You can specify "from" as and write as many rules as you want
+You can specify "to" and it will animate any of those changes
+
+---
+
+```
 	// element to apply the animation to
 	div {
 	    width: 100px;
@@ -37,25 +46,19 @@
 	}
 ```
 
-New css ability! @keyframes
-
-You can specify "from" as and write as many rules as you want
-You can specify "to" and it will animate any of those changes
-
 When you want to add a specific animation to any element we can just add the property animation-name & add a duration.
-
 
 ---
 
 ```
 	/// the animation
 	@keyframes move-down-right {
-		0% { 
-			top: 0px; 
+		0% {
+			top: 0px;
 		}
 
-		50% { 
-			top: 200px; 
+		50% {
+			top: 200px;
 			left: 0px;
 		}
 
@@ -63,16 +66,6 @@ When you want to add a specific animation to any element we can just add the pro
 			top: 200px;
 			left: 200px;
 		}
-	}
-	
-	// element to apply the animation to
-	div {
-	    width: 100px;
-	    height: 100px;
-	    background-color: red;
-	    animation-name: move-down-right;
-	    animation-duration: 4s;
-
 	}
 ```
 
@@ -83,7 +76,7 @@ From 2s -> 4s it will move it top 200px and left 200px;
 ---
 
 ```
-	
+
 	// element to apply the animation to
 	div {
 	    width: 100px;
@@ -91,7 +84,7 @@ From 2s -> 4s it will move it top 200px and left 200px;
 	    background-color: red;
 	    animation-name: change-color;
 	    animation-duration: 4s;
-	    animation-iteration-count: 5
+	    animation-iteration-count: 5;
 	}
 ```
 
@@ -102,16 +95,13 @@ It's possible values can be any type of number or the word infinite
 
 
 ```
-	// element to apply the animation to
-	div {
-	    width: 100px;
-	    height: 100px;
-	    background-color: red;
-	    animation-name: change-color;
-	    animation-duration: 4s;
-	    animation-iteration-count: infinite;
-	    animation-direction: normal;
-	}
+// element to apply the animation to
+div {
+	animation-name: change-color;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+}
 ```
 
 Animation-direction allow us specify the direction of the animation
@@ -131,9 +121,7 @@ Alternate and Alternate-reverse only work when you have more than one iteration 
 
 ![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 
-Finish the questions in Exercise 1 css.
-
-Modify your HTML to remove the link tag that links code-along-part-1.css so it doesn't interfere with exercise-1.
+Finish the questions in Exercise 1 css
 
 ---
 
@@ -154,7 +142,7 @@ The easing functions are:
 * step-start
 * step-end
 
-See how they work yourself.
+Let's see how they work
 
 ---
 
@@ -188,8 +176,9 @@ The options available to you are:
 
 ---
 
-Exercise 2
+![GeneralAssemb.ly](../img/icons/exercise_icon_md.png)
 
+Exercise 2
 
 ---
 
@@ -233,9 +222,9 @@ Now we can add a class to any element and that'll cause it to shake!
 	});
 ```
 
-This allows us to shake the button! Everytime you click box 1, it adds our class which triggers the animation.
+This allows us to shake the button! Every time you click box 1, it adds our class which triggers the animation.
 
---- 
+---
 
 ## Using Animations to do interactivity
 
@@ -247,7 +236,7 @@ How do we know if the animation has ended? Let's use Javascript to remove the cl
 	$(".box_1").click(function () {
 		$(".box_1").addClass("shake");
 		$(".box_1").one(
-			"webkitAnimationEnd oanimationend msAnimationEnd animationend", 
+			"webkitAnimationEnd oanimationend msAnimationEnd animationend",
 			function () {
 			$(".box_1").removeClass("shake");
 			}
@@ -268,7 +257,8 @@ Important: You'll note for all of this, all the javascript does add and remove c
 This makes your code into separate parts.
 
 HTML is structure
-CSS is styling 
+CSS is styling
 Javascript is interaction & logic
 
 ---
+
