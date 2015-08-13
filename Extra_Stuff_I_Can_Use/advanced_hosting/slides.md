@@ -27,7 +27,7 @@ Hosting consists of two major services:
 
 ## Github
 
-Github is a company that provides hosting your code, but part of their service is Github Pages, which lets you host your code on their servers.
+Github is a company that provides hosting your code
 
 What it does do:
 
@@ -38,12 +38,16 @@ What it does do:
 * Easily modify and push changes to your website
 * Let's you host your blog
 
+---
+
+## Github
+
 What it doesn't do:
 
 * Does not working with more back-end services (Rails, node.js, etc.)
 * It's not super fast to sync your changes
 
---- 
+---
 
 ## Github
 
@@ -54,7 +58,7 @@ What it doesn't do:
 More instructions are here: https://pages.github.com/
 Make sure to select "user or organization site"
 
---- 
+---
 
 ## Basic Git Vocabulary
 
@@ -66,7 +70,7 @@ Vocabulary:
 * Push - Pushing your commits mean's uploading them to the server
 
 
---- 
+---
 
 ## Workflow
 
@@ -74,28 +78,21 @@ Vocabulary:
 2. Make multiple commits or a single commit
 3. Sync those changes to the server to upload them to your site
 
---- 
+---
 
 ## THATS IT
 
-Done, you have a website working! 
+Done, you have a website working!
 
---- 
+---
 
 ## Setting up your own domain
 
 You have to buy your domain properly from a website, whatever you have hosted properly.
 
-I use namecheap, there are a ton. 
+I use namecheap, there are a ton.
 
---- 
-
-## Connecting your Domain
-
-TODO: How do I do this?
-
-
---- 
+---
 
 ## Hosting Multiple Projects
 
