@@ -11,7 +11,6 @@
 
 * Github
 * Best workflows
-* Setting up your own domain
 * Advanced hosting
 
 ---
@@ -46,6 +45,7 @@ What it doesn't do:
 
 * Does not working with more back-end services (Rails, node.js, etc.)
 * It's not super fast to sync your changes
+* It's not going to support Worpdress (but you can have a blog)
 
 ---
 
@@ -92,6 +92,8 @@ You have to buy your domain properly from a website, whatever you have hosted pr
 
 I use namecheap, there are a ton.
 
+https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/
+
 ---
 
 ## Hosting Multiple Projects
@@ -100,13 +102,32 @@ I use namecheap, there are a ton.
 2. Put your code in that local folder if it exists, otherwise write your code in that folder
 2. Create a new branch for your repo called gh-pages
 3. Make any modifications to your project as you go along and if you make commits and sync, it will push your project changes to username.github.io/project-name
-4. You can link specific domains to this project specifically by targetting your domain username.github.io/project-name
+4. You can link specific domains to this project specifically by targeting your domain username.github.io/project-name
+
 
 ---
 
+## Why Github Pages vs other hosting solutions?
+
+1. Git is standard and getting familiar with it is only good if you're going to work with developers
+2. Github pages keeps your projects in separate spots and backups all your projects
+3. They're public code, so not only can people see your projects they can make changes and improve it if you want to start a bigger project.
+
+---
+
+## What about if I want a blog?
+
+You can use *Jekyll*, it requires some terminal-fu though.
+
+https://help.github.com/articles/using-jekyll-with-pages/
+
+But honestly, your best bet is Wordpress. Github is for hosting *static* sites.
+
+---
 
 ## Caveats about Github Pages
 
 Github pages is a great way to host your basic website and your small projects easily, but there are a few issues with it.
 
-* If you're trying to make all your pages look alike, you have to link your css files properly between all your projects
+* If you're trying to make all your pages look alike, you have to link your css files properly between all your projects.
+* You'll also have to modify any shared headers between pages.
