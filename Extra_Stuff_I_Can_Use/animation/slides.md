@@ -236,7 +236,7 @@ How do we know if the animation has ended? Let's use Javascript to remove the cl
 	$(".box_1").click(function () {
 		$(".box_1").addClass("shake");
 		$(".box_1").one(
-			"webkitAnimationEnd oanimationend msAnimationEnd animationend",
+			"animationend",
 			function () {
 			$(".box_1").removeClass("shake");
 			}
@@ -262,3 +262,6 @@ Javascript is interaction & logic
 
 ---
 
+## More Resources
+
+http://tympanus.net/codrops/category/playground/
